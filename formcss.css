@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.req{
+    color: red;
+}
+body{
+    margin-left: 200px;
+    line-height: 1.6;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.rad{
+    line-height: 1.2;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    width: 400px;
+    height: 20px;
+}
+#adsize1, #adsize2, #adsize3, .chck{
+    width: 10px;
+    height: 10px;
+}
+button{
+    padding: 5px;
+}

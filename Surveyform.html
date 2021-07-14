@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/Surveyform/formcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2>Advertising Estimate</h2>
+    <form>
+        <label>Name/ Company Name<span class="req">*</span><br>
+        <input type="text" required></label>
+        <label><br>Email<span class="req">*</span><br>
+        <input type="text" required></label>
+        <label><br>Ad Start Date<span class="req">*</span><br></label>
+        <input type="date" required>
+        <label><br>Ad End Date<span class="req">*</span><br></label>
+        <input type="date" required>
+        <div class="rad">
+        <label><br>Advertising Size (Pixels)<br></label>
+        <input type="radio" id="adsize1" name="adsize"><label for="adsize1">Option1<br></label>
+        <input type="radio" id="adsize2" name="adsize"><label for="adsize2">Option2<br></label>
+        <input type="radio" id="adsize3" name="adsize"><label for="adsize3">Option3<br></label>
+        </div>
+        <label>Which sites would you like to advertise on?<br></label>
+        <input type="checkbox" class="chck"><label>Option1<br></label>
+        <input type="checkbox" class="chck"><label>Option2<br></label>
+        <input type="checkbox" class="chck"><label>Option3<br></label>
+        <label>Website to be advertised<span class="req">*<br></span></label>
+        <input type="text" required><br>
+        <label>Comments</label><br>
+        <textarea></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
